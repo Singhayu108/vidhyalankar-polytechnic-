@@ -13,6 +13,21 @@ document.addEventListener('DOMContentLoaded', () => {
       backgroundPosition: '50% 100%',
       ease: 'none'
     });
+    // Auto-typing text animation
+    const typed = new Typed('.auto-type', {
+        strings: [
+            'Empowering future engineers with cutting-edge technology',
+            'Shaping Future Technocrats Since 1990',
+            'Innovation Through Technology',
+            'Excellence in Electronics & Computing'
+        ],
+        typeSpeed: 50,
+        backSpeed: 30,
+        loop: true,
+        cursorChar: '|',
+        backDelay: 2000,
+        startDelay: 1000
+    });
   
     // Number Counter Animation
     const statNumbers = document.querySelectorAll('.stat-number');
@@ -225,6 +240,14 @@ document.addEventListener('DOMContentLoaded', () => {
         indicator.addEventListener('click', () => {
             showSlide(index);
         });
+    });
+
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        hamburger.classList.toggle('active');
     });
 });
 
