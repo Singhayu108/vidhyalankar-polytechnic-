@@ -51,7 +51,100 @@
                 </div>
             </div>
         </section>
+        <div class="syllabus">
+       <div class="syllabus-container"> <h2>DOWNLOAD SYLLABUS </h2></div>
+        <div class="circuit-line"></div>
+        <div class="btn-container">
+            <a href="#" class="btn">First Year Syllabus</a>
+            <a href="#" class="btn">Second Year Syllabus</a>
+            <a href="#" class="btn">Third Year Syllabus</a>
+        </div>
+        </div>
+        <div class="vision-mission-header">
+            <h2>VISION AND MISSION</h2>
+            <div class="circuit-line"></div>
+        </div>
+        
+        <div class="content-container">
+            <div class="vision-box">
+                <h3>Vision:</h3>
+                <p>To produce Electronics and Computer engineers capable of effectively using technical knowledge and interpersonal skills to benefit the industry and society.</p>
+            </div>
 
+            <div class="mission-box">
+                <h3>Mission:</h3>
+                <p><strong>M1:</strong> Providing state of the art facilities and conducive environment enabling the students to sustain the challenges in the field of Electronics and Computer.</p>
+                <p><strong>M2:</strong> Educating the students to face the competitive world, develop leadership skills and to instil discipline and ethics.</p>
+                <p><strong>M3:</strong> Promoting industry institute interaction.</p>
+            </div>
+        </div>
+        <section class="programme-section">
+            <div class="button-container">
+                <button class="btn orange" onclick="showContent('peo')">Programme Educational Objectives</button>
+                <button class="btn green" onclick="showContent('pso')">Programme Specific Outcomes</button>
+                <button class="btn dark-green" onclick="showContent('po')">Programme Outcomes</button>
+            </div>
+
+            <!-- Programme Educational Objectives Content -->
+            <div id="peo-content" class="programme-content active">
+                <h2 class="page-title"><span>PROGRAMME</span> EDUCATIONAL OBJECTIVES</h2>
+                <div class="grid-container">
+                    <div class="card">
+                        <img src="images/prog hod.jpg" alt="Teaching">
+                        <h3>Core Competence:</h3>
+                        <p>To develop expertise amongst students to meet the needs of the employer by using mathematical foundation, electronic fundamentals, and enable them to understand and solve engineering problems.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/prooooo.jpg" alt="Professional">
+                        <h3>Professionalism:</h3>
+                        <p>To inculcate life-long learning, courage, professional ethics, and entrepreneurial mindset.</p>
+                    </div>
+                    <div class="card">
+                        <img src="images/learninggggg.jpg" alt="Teamwork">
+                        <h3>Conducive Learning Environment:</h3>
+                        <p>To provide an encouraging academic learning environment needed for a successful professional career so that students can become a resourceful asset to society.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programme Specific Outcomes Content -->
+            <div id="pso-content" class="programme-content">
+                <h2 class="page-title"><span>PROGRAMME</span> SPECIFIC OUTCOMES</h2>
+                <div class="grid-container">
+                    <div class="card">
+                        <h3>PSO1: Technical Skills</h3>
+                        <p>Apply knowledge of electronics and computer engineering to analyze, design, and implement electronic systems and computer applications.</p>
+                    </div>
+                    <div class="card">
+                        <h3>PSO2: Professional Skills</h3>
+                        <p>Demonstrate proficiency in using modern electronic tools, software, and equipment for professional practice.</p>
+                    </div>
+                    <div class="card">
+                        <h3>PSO3: Project Management</h3>
+                        <p>Work effectively in teams to design and develop innovative solutions for real-world engineering problems.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Programme Outcomes Content -->
+            <div id="po-content" class="programme-content">
+                <h2 class="page-title"><span>PROGRAMME</span> OUTCOMES</h2>
+                <div class="grid-container">
+                    <div class="card">
+                        <h3>PO1: Engineering Knowledge</h3>
+                        <p>Apply knowledge of mathematics, science, and engineering fundamentals to solve complex engineering problems.</p>
+                    </div>
+                    <div class="card">
+                        <h3>PO2: Problem Analysis</h3>
+                        <p>Identify, formulate, research literature, and analyze complex engineering problems.</p>
+                    </div>
+                    <div class="card">
+                        <h3>PO3: Design/Development</h3>
+                        <p>Design solutions for complex engineering problems and design system components or processes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="about" class="about-section">
             <div class="section-header">
                 <h2>About EJ Department</h2>
@@ -59,7 +152,15 @@
             </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p>At Vidhyalankar Polytechnic, our Electronics and Computer Engineering department is at the forefront of technological innovation. We blend cutting-edge theoretical knowledge with practical skills to prepare students for the dynamic world of technology.</p>
+                    <p>Electronics and Computer engineering is the most sophisticated, demanding and largest branch of 
+                        engineering. It has diverse application areas that have affected our daily life in various ways.
+
+                        The world is anticipating a new millennium, which is going to be the wireless telecommunication
+                         age. Therefore new areas of research in material sciences, optics, MEMS, NEMS, together will 
+                         contribute to a new revolution in replacing the present state of art devices and systems.
+                          Vidyalankar Polytechnic offers a three year Diploma course in Electronics and Computer 
+                        Engineering affiliated to Maharashtra State Board of 
+                        Technical Education (MSBTE), Mumbai and Approved by All India Council for Technical Education.</p>
                 </div>
                 <div class="about-stats">
                     <div class="stat-item">
@@ -73,6 +174,7 @@
                 <h2>Our Faculty</h2>
                 <div class="circuit-line"></div>
             </div>
+            
             <div class="faculty-grid">
                 <div class="faculty-card">
                     <div class="faculty-image">
@@ -80,17 +182,102 @@
                     </div>
                     <div class="faculty-info">
                         <h3>Prof. Anjum Mujawar</h3>
-                        <p class="position">Head of Department
-                            <br>
-                            ELECTRONICS & AND COMPUTER ENGINEERING
-                        </p>
+                        <p class="position">Head of Department</p>
                         <div class="faculty-details">
-                            <p><strong>Qualifications:</strong></p>
+                            <p><strong>Qualifications</strong></p>
                             <ul>
-                                <li>UG: BE (EXTC)</li>
-                                <li>PG: ME (EXTC)</li>
+                                <li>UG:BE (EXTC)</li>
+                                <li>PG:ME (EXTC)</li>
                             </ul>
                             <p><strong>Experience:</strong> 17 years</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="/images/shantimam.jpg" alt="Prof. Shanti Krishnan">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Shanti Krishnan</h3>
+                        <p class="position">Lecturer</p>
+                        <div class="faculty-details">
+                            <p><strong>Qualifications</strong></p>
+                            <ul>
+                                <li>UG:BE (EXTC)</li>
+                                <li>PG:ME (EXTC)</li>
+                            </ul>
+                            <p><strong>Experience:</strong> 5 years</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="/images/Prof. Pranjali Shelke.jpeg" alt="Prof. Pranjali Patil">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Pranjali Patil</h3>
+                        <p class="position">Lecturer</p>
+                        <div class="faculty-details">
+                            <p><strong>Qualifications</strong></p>
+                            <ul>
+                                <li>UG:BE (EXTC)</li>
+                            </ul>
+                            <p><strong>Experience:</strong> 16 years</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="/images/Chaitnya Sawant.jpeg" alt="Prof. Chaitnya Sawant">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Chaitnya Sawant</h3>
+                        <p class="position">Lecturer</p>
+                        <div class="faculty-details">
+                            <p><strong>Qualifications</strong></p>
+                            <ul>
+                                <li>PG:MSc (IT)</li>
+                            </ul>
+                            <p><strong>Experience:</strong> 2 years</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="/images/Bhakti.jpeg" alt="Prof. Bhakti Redkar">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Prof. Bhakti Redkar</h3>
+                        <p class="position">Lecturer</p>
+                        <div class="faculty-details">
+                            <p><strong>Qualifications</strong></p>
+                            <ul>
+                                <li>PG:MSc (IT)</li>
+                            </ul>
+                            <p><strong>Experience:</strong> 1 year</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="/images/pooja.jpg" alt="DR. Pooja Srivastav">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>DR. Pooja Srivastav</h3>
+                        <p class="position">Lecturer</p>
+                        <div class="faculty-details">
+                            <p><strong>Qualifications</strong></p>
+                            <ul>
+                                <li>UG:BSc</li>
+                                <li>PG:MSc</li>
+                                <li>PhD</li>
+                            </ul>
+                            <p><strong>Experience:</strong> 1 year</p>
                         </div>
                     </div>
                 </div>
